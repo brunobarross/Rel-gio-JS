@@ -24,6 +24,23 @@ section {
 
 }
 
+
+#msg {
+  padding: 16px 0;
+  font-size: 1.5em;
+}
+
+@media (max-width: 739px) {
+  section {
+    max-width: 300px;
+  }
+
+  #msg {
+    text-align: center;
+    font-size: 1.125em;
+  }
+}
+
 footer {
   color: #fff;
   text-align: center;
@@ -31,10 +48,6 @@ footer {
 }
 
 
-#msg {
-  padding: 16px 0;
-  font-size: 1.5em;
-}
 
 #imagem {
   width: 200px;
